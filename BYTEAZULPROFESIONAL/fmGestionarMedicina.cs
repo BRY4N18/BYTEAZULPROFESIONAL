@@ -33,7 +33,7 @@ namespace BYTEAZULPROFESIONAL
         {
             // Para que se muestren la tabla apenas ingresar al fm
             conexion = new CsConexion();
-            DataTable VerMedicina = conexion.Insertinto("Select M.id_producto Id, M.md_producto Medicina, M.md_categoria Categoria, M.id_proveedor [Id Proveedor], M.id_iva Iva, M.md_descripcion Descripcion, M.md_precio_unidad [Precio unitario], M.md_estado Estado, sum(l.lt_cantidad) Cantidad from Medicina M left join Lotes L on M.id_producto=L.id_producto group by M.id_producto, M.md_producto, M.md_categoria, M.id_proveedor, M.id_iva, M.md_descripcion, M.md_precio_unidad, M.md_estado");
+            DataTable VerMedicina = conexion.Insertinto("Select M.id_producto Id, M.md_producto Medicina, M.md_categoria Categoria, M.id_proveedor [Id Proveedor], M.id_iva Iva, M.md_descripcion Descripcion, M.md_precio_unidad [Precio unitario], M.md_estado Estado, sum(l.lt_cantidad) Cantidad from Medicina M left join Lotes L on M.id_producto=L.id_producto where L.lt_fecha_caducidad>GETDATE() group by M.id_producto, M.md_producto, M.md_categoria, M.id_proveedor, M.id_iva, M.md_descripcion, M.md_precio_unidad, M.md_estado");
             dgvVerMedicina.DataSource = VerMedicina;
             
             CsAuxiliar auxiliar = new CsAuxiliar();
