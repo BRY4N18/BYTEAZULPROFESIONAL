@@ -55,6 +55,7 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
+            this.txtNombreCliente = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetallesVentas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,145 +70,158 @@
             this.btnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnGuardar.Location = new System.Drawing.Point(398, 206);
+            this.btnGuardar.Location = new System.Drawing.Point(531, 254);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(105, 28);
+            this.btnGuardar.Size = new System.Drawing.Size(140, 34);
             this.btnGuardar.TabIndex = 3;
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // txtIdProducto
             // 
-            this.txtIdProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIdProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIdProducto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIdProducto.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdProducto.Location = new System.Drawing.Point(198, 116);
+            this.txtIdProducto.Location = new System.Drawing.Point(264, 143);
+            this.txtIdProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdProducto.MaxLength = 10;
             this.txtIdProducto.Name = "txtIdProducto";
-            this.txtIdProducto.Size = new System.Drawing.Size(81, 21);
+            this.txtIdProducto.Size = new System.Drawing.Size(108, 26);
             this.txtIdProducto.TabIndex = 76;
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtNombreProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtNombreProducto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreProducto.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreProducto.Location = new System.Drawing.Point(198, 143);
+            this.txtNombreProducto.Location = new System.Drawing.Point(264, 176);
+            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreProducto.MaxLength = 10;
             this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(102, 21);
+            this.txtNombreProducto.Size = new System.Drawing.Size(136, 26);
             this.txtNombreProducto.TabIndex = 77;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPrecio.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecio.Location = new System.Drawing.Point(199, 172);
+            this.txtPrecio.Location = new System.Drawing.Point(265, 212);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrecio.MaxLength = 10;
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(102, 21);
+            this.txtPrecio.Size = new System.Drawing.Size(136, 26);
             this.txtPrecio.TabIndex = 78;
             // 
             // txtCantidad
             // 
-            this.txtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtCantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCantidad.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCantidad.Location = new System.Drawing.Point(198, 200);
+            this.txtCantidad.Location = new System.Drawing.Point(264, 246);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtCantidad.MaxLength = 10;
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(102, 21);
+            this.txtCantidad.Size = new System.Drawing.Size(136, 26);
             this.txtCantidad.TabIndex = 2;
             this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // txtFecha
             // 
-            this.txtFecha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtFecha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtFecha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtFecha.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFecha.Location = new System.Drawing.Point(468, 117);
+            this.txtFecha.Location = new System.Drawing.Point(624, 144);
+            this.txtFecha.Margin = new System.Windows.Forms.Padding(4);
             this.txtFecha.MaxLength = 10;
             this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(102, 21);
+            this.txtFecha.Size = new System.Drawing.Size(136, 26);
             this.txtFecha.TabIndex = 80;
             // 
             // txtIdCliente
             // 
-            this.txtIdCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIdCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIdCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIdCliente.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIdCliente.Location = new System.Drawing.Point(468, 146);
+            this.txtIdCliente.Location = new System.Drawing.Point(624, 180);
+            this.txtIdCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdCliente.MaxLength = 10;
             this.txtIdCliente.Name = "txtIdCliente";
-            this.txtIdCliente.Size = new System.Drawing.Size(81, 21);
+            this.txtIdCliente.Size = new System.Drawing.Size(108, 26);
             this.txtIdCliente.TabIndex = 81;
             // 
             // txtidEmpleado
             // 
-            this.txtidEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtidEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtidEmpleado.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtidEmpleado.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtidEmpleado.Location = new System.Drawing.Point(467, 175);
+            this.txtidEmpleado.Location = new System.Drawing.Point(623, 215);
+            this.txtidEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.txtidEmpleado.MaxLength = 10;
             this.txtidEmpleado.Name = "txtidEmpleado";
-            this.txtidEmpleado.Size = new System.Drawing.Size(102, 21);
+            this.txtidEmpleado.Size = new System.Drawing.Size(136, 26);
             this.txtidEmpleado.TabIndex = 82;
             // 
             // txtSubtotal
             // 
-            this.txtSubtotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtSubtotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtSubtotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSubtotal.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSubtotal.Location = new System.Drawing.Point(608, 171);
+            this.txtSubtotal.Location = new System.Drawing.Point(811, 210);
+            this.txtSubtotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtSubtotal.MaxLength = 10;
             this.txtSubtotal.Name = "txtSubtotal";
-            this.txtSubtotal.Size = new System.Drawing.Size(141, 21);
+            this.txtSubtotal.Size = new System.Drawing.Size(188, 26);
             this.txtSubtotal.TabIndex = 83;
             // 
             // txtIva
             // 
-            this.txtIva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIva.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIva.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIva.Location = new System.Drawing.Point(608, 209);
+            this.txtIva.Location = new System.Drawing.Point(811, 257);
+            this.txtIva.Margin = new System.Windows.Forms.Padding(4);
             this.txtIva.MaxLength = 10;
             this.txtIva.Name = "txtIva";
-            this.txtIva.Size = new System.Drawing.Size(141, 21);
+            this.txtIva.Size = new System.Drawing.Size(188, 26);
             this.txtIva.TabIndex = 84;
             // 
             // txtTotal
             // 
-            this.txtTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTotal.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotal.Location = new System.Drawing.Point(608, 247);
+            this.txtTotal.Location = new System.Drawing.Point(811, 304);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotal.MaxLength = 10;
             this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(141, 21);
+            this.txtTotal.Size = new System.Drawing.Size(188, 26);
             this.txtTotal.TabIndex = 85;
             // 
             // txtPago
             // 
-            this.txtPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtPago.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPago.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPago.Location = new System.Drawing.Point(608, 287);
+            this.txtPago.Location = new System.Drawing.Point(811, 353);
+            this.txtPago.Margin = new System.Windows.Forms.Padding(4);
             this.txtPago.MaxLength = 10;
             this.txtPago.Name = "txtPago";
-            this.txtPago.Size = new System.Drawing.Size(141, 21);
+            this.txtPago.Size = new System.Drawing.Size(188, 26);
             this.txtPago.TabIndex = 6;
             this.txtPago.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPago_KeyPress);
             // 
             // txtCambio
             // 
-            this.txtCambio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtCambio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtCambio.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCambio.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCambio.Location = new System.Drawing.Point(608, 325);
+            this.txtCambio.Location = new System.Drawing.Point(811, 400);
+            this.txtCambio.Margin = new System.Windows.Forms.Padding(4);
             this.txtCambio.MaxLength = 10;
             this.txtCambio.Name = "txtCambio";
-            this.txtCambio.Size = new System.Drawing.Size(141, 21);
+            this.txtCambio.Size = new System.Drawing.Size(188, 26);
             this.txtCambio.TabIndex = 87;
             // 
             // btnSubtotal
@@ -221,9 +235,10 @@
             this.btnSubtotal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnSubtotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubtotal.ForeColor = System.Drawing.Color.Transparent;
-            this.btnSubtotal.Location = new System.Drawing.Point(607, 114);
+            this.btnSubtotal.Location = new System.Drawing.Point(809, 140);
+            this.btnSubtotal.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubtotal.Name = "btnSubtotal";
-            this.btnSubtotal.Size = new System.Drawing.Size(141, 35);
+            this.btnSubtotal.Size = new System.Drawing.Size(188, 43);
             this.btnSubtotal.TabIndex = 5;
             this.btnSubtotal.UseVisualStyleBackColor = false;
             this.btnSubtotal.Click += new System.EventHandler(this.btnSubtotal_Click);
@@ -239,9 +254,10 @@
             this.btnGenerarFactura.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnGenerarFactura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerarFactura.ForeColor = System.Drawing.Color.Transparent;
-            this.btnGenerarFactura.Location = new System.Drawing.Point(608, 365);
+            this.btnGenerarFactura.Location = new System.Drawing.Point(811, 449);
+            this.btnGenerarFactura.Margin = new System.Windows.Forms.Padding(4);
             this.btnGenerarFactura.Name = "btnGenerarFactura";
-            this.btnGenerarFactura.Size = new System.Drawing.Size(141, 35);
+            this.btnGenerarFactura.Size = new System.Drawing.Size(188, 43);
             this.btnGenerarFactura.TabIndex = 7;
             this.btnGenerarFactura.UseVisualStyleBackColor = false;
             this.btnGenerarFactura.Click += new System.EventHandler(this.btnGenerarFactura_Click);
@@ -257,9 +273,10 @@
             this.btnCerrarCaja.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCerrarCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarCaja.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCerrarCaja.Location = new System.Drawing.Point(626, 428);
+            this.btnCerrarCaja.Location = new System.Drawing.Point(835, 527);
+            this.btnCerrarCaja.Margin = new System.Windows.Forms.Padding(4);
             this.btnCerrarCaja.Name = "btnCerrarCaja";
-            this.btnCerrarCaja.Size = new System.Drawing.Size(105, 28);
+            this.btnCerrarCaja.Size = new System.Drawing.Size(140, 34);
             this.btnCerrarCaja.TabIndex = 8;
             this.btnCerrarCaja.UseVisualStyleBackColor = false;
             this.btnCerrarCaja.Click += new System.EventHandler(this.btnCerrarCaja_Click);
@@ -275,9 +292,10 @@
             this.btnCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCliente.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCliente.Location = new System.Drawing.Point(554, 147);
+            this.btnCliente.Location = new System.Drawing.Point(739, 181);
+            this.btnCliente.Margin = new System.Windows.Forms.Padding(4);
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(15, 19);
+            this.btnCliente.Size = new System.Drawing.Size(20, 23);
             this.btnCliente.TabIndex = 4;
             this.btnCliente.UseVisualStyleBackColor = false;
             this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
@@ -293,9 +311,10 @@
             this.btnBuscarProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBuscarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarProducto.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBuscarProducto.Location = new System.Drawing.Point(284, 118);
+            this.btnBuscarProducto.Location = new System.Drawing.Point(379, 145);
+            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscarProducto.Name = "btnBuscarProducto";
-            this.btnBuscarProducto.Size = new System.Drawing.Size(15, 19);
+            this.btnBuscarProducto.Size = new System.Drawing.Size(20, 23);
             this.btnBuscarProducto.TabIndex = 1;
             this.btnBuscarProducto.UseVisualStyleBackColor = false;
             this.btnBuscarProducto.Click += new System.EventHandler(this.btnBuscarProducto_Click);
@@ -315,14 +334,15 @@
             this.Column4,
             this.Column5,
             this.Eliminar});
-            this.dgvDetallesVentas.Location = new System.Drawing.Point(69, 245);
+            this.dgvDetallesVentas.Location = new System.Drawing.Point(92, 302);
+            this.dgvDetallesVentas.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDetallesVentas.MultiSelect = false;
             this.dgvDetallesVentas.Name = "dgvDetallesVentas";
             this.dgvDetallesVentas.ReadOnly = true;
             this.dgvDetallesVentas.RowHeadersVisible = false;
             this.dgvDetallesVentas.RowHeadersWidth = 51;
             this.dgvDetallesVentas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDetallesVentas.Size = new System.Drawing.Size(502, 233);
+            this.dgvDetallesVentas.Size = new System.Drawing.Size(669, 287);
             this.dgvDetallesVentas.TabIndex = 147;
             this.dgvDetallesVentas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetallesVentas_CellContentClick);
             // 
@@ -330,6 +350,7 @@
             // 
             this.Lote.FillWeight = 60F;
             this.Lote.HeaderText = "Lote";
+            this.Lote.MinimumWidth = 6;
             this.Lote.Name = "Lote";
             this.Lote.ReadOnly = true;
             this.Lote.Visible = false;
@@ -386,15 +407,28 @@
             this.Eliminar.ReadOnly = true;
             this.Eliminar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Eliminar.ToolTipText = "Eliminar";
-            this.Eliminar.Width = 49;
+            this.Eliminar.Width = 61;
+            // 
+            // txtNombreCliente
+            // 
+            this.txtNombreCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
+            this.txtNombreCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreCliente.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreCliente.Location = new System.Drawing.Point(623, 180);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombreCliente.MaxLength = 10;
+            this.txtNombreCliente.Name = "txtNombreCliente";
+            this.txtNombreCliente.Size = new System.Drawing.Size(108, 26);
+            this.txtNombreCliente.TabIndex = 148;
             // 
             // fmCaja
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
+            this.Controls.Add(this.txtNombreCliente);
             this.Controls.Add(this.dgvDetallesVentas);
             this.Controls.Add(this.btnBuscarProducto);
             this.Controls.Add(this.btnCliente);
@@ -415,6 +449,7 @@
             this.Controls.Add(this.txtIdProducto);
             this.Controls.Add(this.btnGuardar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmCaja";
             this.Text = "fmCaja";
             this.Load += new System.EventHandler(this.fmCaja_Load);
@@ -452,5 +487,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewImageColumn Eliminar;
+        public System.Windows.Forms.TextBox txtNombreCliente;
     }
 }

@@ -42,8 +42,13 @@ namespace BYTEAZULPROFESIONAL
             {
                 int fila = dgvVerProveedores.CurrentCell.RowIndex;
                 prv_IdProveedor = dgvVerProveedores.Rows[fila].Cells["Id"].Value.ToString();
+                prv_nombre = dgvVerProveedores.Rows[fila].Cells["Nombre"].Value.ToString();
                 fmAgregarMedicina Medicina = Owner as fmAgregarMedicina; //(9, prv_nombre, prv_categoria, prv_IdProveedor, prv_descripcion, prv_precio, prv_iva);
                 Medicina.txtIDProveedor.Text = prv_IdProveedor; // Codigo modificado para que valiera el id de proveedor al momento de agregar una medicina - el txt se hizo publico
+                Medicina.txtNombreProveedor.Text= prv_nombre;
+                Medicina.txtIDProveedor.Enabled = false;
+                Medicina.txtIDProveedor.Visible = false;
+                Medicina.txtNombreProveedor.Enabled = false;
                 this.Hide();
             }
             else if (y == 2) //para compras

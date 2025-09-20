@@ -75,9 +75,10 @@
             this.btnBuscarIDProducto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBuscarIDProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarIDProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnBuscarIDProducto.Location = new System.Drawing.Point(284, 105);
+            this.btnBuscarIDProducto.Location = new System.Drawing.Point(379, 129);
+            this.btnBuscarIDProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscarIDProducto.Name = "btnBuscarIDProducto";
-            this.btnBuscarIDProducto.Size = new System.Drawing.Size(17, 20);
+            this.btnBuscarIDProducto.Size = new System.Drawing.Size(23, 25);
             this.btnBuscarIDProducto.TabIndex = 87;
             this.btnBuscarIDProducto.UseVisualStyleBackColor = false;
             this.btnBuscarIDProducto.Click += new System.EventHandler(this.btnBuscarIDProducto_Click);
@@ -93,9 +94,10 @@
             this.btnBuscarIDProveedor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBuscarIDProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarIDProveedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnBuscarIDProveedor.Location = new System.Drawing.Point(554, 149);
+            this.btnBuscarIDProveedor.Location = new System.Drawing.Point(739, 183);
+            this.btnBuscarIDProveedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscarIDProveedor.Name = "btnBuscarIDProveedor";
-            this.btnBuscarIDProveedor.Size = new System.Drawing.Size(15, 18);
+            this.btnBuscarIDProveedor.Size = new System.Drawing.Size(20, 22);
             this.btnBuscarIDProveedor.TabIndex = 88;
             this.btnBuscarIDProveedor.UseVisualStyleBackColor = false;
             this.btnBuscarIDProveedor.Click += new System.EventHandler(this.btnBuscarIDProveedor_Click);
@@ -111,9 +113,10 @@
             this.btnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnGuardar.Location = new System.Drawing.Point(384, 214);
+            this.btnGuardar.Location = new System.Drawing.Point(512, 260);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(98, 21);
+            this.btnGuardar.Size = new System.Drawing.Size(131, 26);
             this.btnGuardar.TabIndex = 89;
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
@@ -129,9 +132,10 @@
             this.btnSubtotal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnSubtotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubtotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnSubtotal.Location = new System.Drawing.Point(609, 149);
+            this.btnSubtotal.Location = new System.Drawing.Point(812, 180);
+            this.btnSubtotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSubtotal.Name = "btnSubtotal";
-            this.btnSubtotal.Size = new System.Drawing.Size(139, 28);
+            this.btnSubtotal.Size = new System.Drawing.Size(185, 34);
             this.btnSubtotal.TabIndex = 90;
             this.btnSubtotal.UseVisualStyleBackColor = false;
             this.btnSubtotal.Click += new System.EventHandler(this.btnSubtotal_Click);
@@ -147,140 +151,141 @@
             this.btnConfirmarCompra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnConfirmarCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmarCompra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnConfirmarCompra.Location = new System.Drawing.Point(609, 405);
+            this.btnConfirmarCompra.Location = new System.Drawing.Point(812, 494);
+            this.btnConfirmarCompra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConfirmarCompra.Name = "btnConfirmarCompra";
-            this.btnConfirmarCompra.Size = new System.Drawing.Size(139, 28);
+            this.btnConfirmarCompra.Size = new System.Drawing.Size(185, 34);
             this.btnConfirmarCompra.TabIndex = 91;
             this.btnConfirmarCompra.UseVisualStyleBackColor = false;
             this.btnConfirmarCompra.Click += new System.EventHandler(this.btnConfirmarCompra_Click);
             // 
             // txtIDProducto
             // 
-            this.txtIDProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIDProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIDProducto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIDProducto.Enabled = false;
             this.txtIDProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDProducto.Location = new System.Drawing.Point(197, 106);
-            this.txtIDProducto.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIDProducto.Location = new System.Drawing.Point(263, 128);
+            this.txtIDProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIDProducto.MaxLength = 30;
             this.txtIDProducto.Name = "txtIDProducto";
-            this.txtIDProducto.Size = new System.Drawing.Size(88, 16);
+            this.txtIDProducto.Size = new System.Drawing.Size(117, 20);
             this.txtIDProducto.TabIndex = 92;
             // 
             // txtNombreProducto
             // 
-            this.txtNombreProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtNombreProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtNombreProducto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombreProducto.Enabled = false;
             this.txtNombreProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreProducto.Location = new System.Drawing.Point(197, 130);
-            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNombreProducto.Location = new System.Drawing.Point(263, 161);
+            this.txtNombreProducto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombreProducto.MaxLength = 30;
             this.txtNombreProducto.Name = "txtNombreProducto";
-            this.txtNombreProducto.Size = new System.Drawing.Size(104, 16);
+            this.txtNombreProducto.Size = new System.Drawing.Size(139, 20);
             this.txtNombreProducto.TabIndex = 93;
             // 
             // txtProveedor
             // 
-            this.txtProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtProveedor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtProveedor.Enabled = false;
             this.txtProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProveedor.Location = new System.Drawing.Point(466, 151);
-            this.txtProveedor.Margin = new System.Windows.Forms.Padding(2);
+            this.txtProveedor.Location = new System.Drawing.Point(621, 182);
+            this.txtProveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProveedor.MaxLength = 30;
             this.txtProveedor.Name = "txtProveedor";
-            this.txtProveedor.Size = new System.Drawing.Size(88, 16);
+            this.txtProveedor.Size = new System.Drawing.Size(117, 20);
             this.txtProveedor.TabIndex = 94;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPrecio.Enabled = false;
             this.txtPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecio.Location = new System.Drawing.Point(197, 160);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPrecio.Location = new System.Drawing.Point(263, 192);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrecio.MaxLength = 30;
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(104, 16);
+            this.txtPrecio.Size = new System.Drawing.Size(139, 20);
             this.txtPrecio.TabIndex = 95;
             // 
             // txtCantidad
             // 
-            this.txtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtCantidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCantidad.Location = new System.Drawing.Point(197, 215);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCantidad.Location = new System.Drawing.Point(263, 260);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCantidad.MaxLength = 4;
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(104, 16);
+            this.txtCantidad.Size = new System.Drawing.Size(139, 20);
             this.txtCantidad.TabIndex = 96;
             this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // txtEmpleado
             // 
-            this.txtEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtEmpleado.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEmpleado.Enabled = false;
             this.txtEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmpleado.Location = new System.Drawing.Point(466, 180);
-            this.txtEmpleado.Margin = new System.Windows.Forms.Padding(2);
+            this.txtEmpleado.Location = new System.Drawing.Point(621, 218);
+            this.txtEmpleado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmpleado.MaxLength = 30;
             this.txtEmpleado.Name = "txtEmpleado";
-            this.txtEmpleado.Size = new System.Drawing.Size(104, 16);
+            this.txtEmpleado.Size = new System.Drawing.Size(139, 20);
             this.txtEmpleado.TabIndex = 98;
             // 
             // txtPrecioSubtotal
             // 
-            this.txtPrecioSubtotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtPrecioSubtotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtPrecioSubtotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPrecioSubtotal.Enabled = false;
             this.txtPrecioSubtotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecioSubtotal.Location = new System.Drawing.Point(671, 214);
-            this.txtPrecioSubtotal.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPrecioSubtotal.Location = new System.Drawing.Point(895, 263);
+            this.txtPrecioSubtotal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrecioSubtotal.MaxLength = 30;
             this.txtPrecioSubtotal.Name = "txtPrecioSubtotal";
-            this.txtPrecioSubtotal.Size = new System.Drawing.Size(68, 14);
+            this.txtPrecioSubtotal.Size = new System.Drawing.Size(91, 17);
             this.txtPrecioSubtotal.TabIndex = 99;
             // 
             // txtTotalIva
             // 
-            this.txtTotalIva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtTotalIva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtTotalIva.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTotalIva.Enabled = false;
             this.txtTotalIva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalIva.Location = new System.Drawing.Point(697, 253);
-            this.txtTotalIva.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTotalIva.Location = new System.Drawing.Point(929, 311);
+            this.txtTotalIva.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTotalIva.MaxLength = 30;
             this.txtTotalIva.Name = "txtTotalIva";
-            this.txtTotalIva.Size = new System.Drawing.Size(42, 14);
+            this.txtTotalIva.Size = new System.Drawing.Size(56, 17);
             this.txtTotalIva.TabIndex = 100;
             // 
             // txtTotalPagar
             // 
-            this.txtTotalPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtTotalPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtTotalPagar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTotalPagar.Enabled = false;
             this.txtTotalPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalPagar.Location = new System.Drawing.Point(671, 296);
-            this.txtTotalPagar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTotalPagar.Location = new System.Drawing.Point(885, 359);
+            this.txtTotalPagar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTotalPagar.MaxLength = 30;
             this.txtTotalPagar.Name = "txtTotalPagar";
-            this.txtTotalPagar.Size = new System.Drawing.Size(68, 14);
+            this.txtTotalPagar.Size = new System.Drawing.Size(91, 17);
             this.txtTotalPagar.TabIndex = 101;
             // 
             // txtNOC
             // 
-            this.txtNOC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtNOC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtNOC.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNOC.Enabled = false;
-            this.txtNOC.Location = new System.Drawing.Point(609, 332);
-            this.txtNOC.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNOC.Location = new System.Drawing.Point(812, 408);
+            this.txtNOC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNOC.MaxLength = 30;
             this.txtNOC.Name = "txtNOC";
-            this.txtNOC.Size = new System.Drawing.Size(130, 13);
+            this.txtNOC.Size = new System.Drawing.Size(173, 15);
             this.txtNOC.TabIndex = 102;
             // 
             // dgvCompra
@@ -298,14 +303,14 @@
             this.Column7,
             this.Column6,
             this.Column5});
-            this.dgvCompra.Location = new System.Drawing.Point(68, 240);
-            this.dgvCompra.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvCompra.Location = new System.Drawing.Point(91, 295);
+            this.dgvCompra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvCompra.Name = "dgvCompra";
             this.dgvCompra.ReadOnly = true;
             this.dgvCompra.RowHeadersVisible = false;
             this.dgvCompra.RowHeadersWidth = 51;
             this.dgvCompra.RowTemplate.Height = 24;
-            this.dgvCompra.Size = new System.Drawing.Size(508, 244);
+            this.dgvCompra.Size = new System.Drawing.Size(677, 300);
             this.dgvCompra.TabIndex = 103;
             this.dgvCompra.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCompra_CellClick);
             // 
@@ -375,25 +380,25 @@
             // 
             // txtIVA
             // 
-            this.txtIVA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIVA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIVA.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIVA.Enabled = false;
             this.txtIVA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIVA.Location = new System.Drawing.Point(197, 188);
-            this.txtIVA.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIVA.Location = new System.Drawing.Point(263, 226);
+            this.txtIVA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIVA.MaxLength = 30;
             this.txtIVA.Name = "txtIVA";
-            this.txtIVA.Size = new System.Drawing.Size(104, 16);
+            this.txtIVA.Size = new System.Drawing.Size(139, 20);
             this.txtIVA.TabIndex = 104;
             // 
             // dtpFechaCaducidad
             // 
-            this.dtpFechaCaducidad.Location = new System.Drawing.Point(468, 118);
-            this.dtpFechaCaducidad.Margin = new System.Windows.Forms.Padding(2);
+            this.dtpFechaCaducidad.Location = new System.Drawing.Point(624, 145);
+            this.dtpFechaCaducidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpFechaCaducidad.MaxDate = new System.DateTime(2054, 6, 17, 0, 0, 0, 0);
             this.dtpFechaCaducidad.MinDate = new System.DateTime(2024, 9, 12, 0, 0, 0, 0);
             this.dtpFechaCaducidad.Name = "dtpFechaCaducidad";
-            this.dtpFechaCaducidad.Size = new System.Drawing.Size(101, 20);
+            this.dtpFechaCaducidad.Size = new System.Drawing.Size(133, 22);
             this.dtpFechaCaducidad.TabIndex = 105;
             this.dtpFechaCaducidad.Value = new System.DateTime(2045, 7, 13, 0, 0, 0, 0);
             this.dtpFechaCaducidad.ValueChanged += new System.EventHandler(this.dtpFechaCaducidad_ValueChanged);
@@ -403,10 +408,9 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(607, 213);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(809, 262);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 15);
+            this.label1.Size = new System.Drawing.Size(75, 18);
             this.label1.TabIndex = 106;
             this.label1.Text = "Subtotal:";
             // 
@@ -415,10 +419,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(607, 251);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(809, 309);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 15);
+            this.label2.Size = new System.Drawing.Size(101, 18);
             this.label2.TabIndex = 107;
             this.label2.Text = "Subtotal Iva:";
             // 
@@ -427,10 +430,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(607, 292);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(809, 359);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 15);
+            this.label3.Size = new System.Drawing.Size(51, 18);
             this.label3.TabIndex = 108;
             this.label3.Text = "Total:";
             // 
@@ -445,11 +447,11 @@
             // 
             // fmAgregarLotes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -472,6 +474,7 @@
             this.Controls.Add(this.btnBuscarIDProveedor);
             this.Controls.Add(this.btnBuscarIDProducto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fmAgregarLotes";
             this.Text = "fmAgregarLotes";
             this.Load += new System.EventHandler(this.fmAgregarLotes_Load);

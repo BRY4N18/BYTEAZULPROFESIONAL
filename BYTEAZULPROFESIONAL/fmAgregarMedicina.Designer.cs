@@ -39,52 +39,57 @@
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.cmbIva = new System.Windows.Forms.ComboBox();
+            this.txtNombreProveedor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtNombreMedicina
             // 
-            this.txtNombreMedicina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtNombreMedicina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtNombreMedicina.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombreMedicina.Location = new System.Drawing.Point(205, 122);
-            this.txtNombreMedicina.Margin = new System.Windows.Forms.Padding(2);
+            this.txtNombreMedicina.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreMedicina.Location = new System.Drawing.Point(104, 131);
+            this.txtNombreMedicina.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombreMedicina.Name = "txtNombreMedicina";
-            this.txtNombreMedicina.Size = new System.Drawing.Size(180, 13);
+            this.txtNombreMedicina.Size = new System.Drawing.Size(384, 20);
             this.txtNombreMedicina.TabIndex = 0;
             this.txtNombreMedicina.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNombreMedicina.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNombreMedicina_KeyDown);
             // 
             // txtIDProveedor
             // 
-            this.txtIDProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIDProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIDProveedor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIDProveedor.Enabled = false;
-            this.txtIDProveedor.Location = new System.Drawing.Point(498, 122);
-            this.txtIDProveedor.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIDProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIDProveedor.Location = new System.Drawing.Point(624, 131);
+            this.txtIDProveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIDProveedor.Name = "txtIDProveedor";
-            this.txtIDProveedor.Size = new System.Drawing.Size(134, 13);
+            this.txtIDProveedor.Size = new System.Drawing.Size(328, 20);
             this.txtIDProveedor.TabIndex = 3;
             this.txtIDProveedor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtDescripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtDescripcion.Location = new System.Drawing.Point(86, 232);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescripcion.Location = new System.Drawing.Point(105, 460);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(180, 13);
+            this.txtDescripcion.Size = new System.Drawing.Size(890, 20);
             this.txtDescripcion.TabIndex = 3;
             this.txtDescripcion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDescripcion.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDescripcion_KeyDown);
             // 
             // txtPrecio
             // 
-            this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtPrecio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPrecio.Location = new System.Drawing.Point(598, 229);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrecio.Location = new System.Drawing.Point(625, 350);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(180, 13);
+            this.txtPrecio.Size = new System.Drawing.Size(371, 20);
             this.txtPrecio.TabIndex = 5;
             this.txtPrecio.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPrecio.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPrecio_KeyDown);
@@ -100,9 +105,10 @@
             this.btnAgregarMedicina.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(92)))), ((int)(((byte)(185)))));
             this.btnAgregarMedicina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarMedicina.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAgregarMedicina.Location = new System.Drawing.Point(130, 429);
+            this.btnAgregarMedicina.Location = new System.Drawing.Point(158, 542);
+            this.btnAgregarMedicina.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarMedicina.Name = "btnAgregarMedicina";
-            this.btnAgregarMedicina.Size = new System.Drawing.Size(258, 60);
+            this.btnAgregarMedicina.Size = new System.Drawing.Size(344, 74);
             this.btnAgregarMedicina.TabIndex = 8;
             this.btnAgregarMedicina.TabStop = false;
             this.btnAgregarMedicina.UseVisualStyleBackColor = false;
@@ -118,9 +124,10 @@
             this.btnModificarMedicina.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(92)))), ((int)(((byte)(185)))));
             this.btnModificarMedicina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModificarMedicina.ForeColor = System.Drawing.Color.Transparent;
-            this.btnModificarMedicina.Location = new System.Drawing.Point(466, 427);
+            this.btnModificarMedicina.Location = new System.Drawing.Point(606, 540);
+            this.btnModificarMedicina.Margin = new System.Windows.Forms.Padding(4);
             this.btnModificarMedicina.Name = "btnModificarMedicina";
-            this.btnModificarMedicina.Size = new System.Drawing.Size(258, 63);
+            this.btnModificarMedicina.Size = new System.Drawing.Size(344, 78);
             this.btnModificarMedicina.TabIndex = 9;
             this.btnModificarMedicina.TabStop = false;
             this.btnModificarMedicina.UseVisualStyleBackColor = false;
@@ -137,9 +144,10 @@
             this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(92)))), ((int)(((byte)(185)))));
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBuscar.Location = new System.Drawing.Point(635, 113);
+            this.btnBuscar.Location = new System.Drawing.Point(957, 123);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(30, 31);
+            this.btnBuscar.Size = new System.Drawing.Size(40, 38);
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.TabStop = false;
             this.btnBuscar.UseVisualStyleBackColor = false;
@@ -147,57 +155,74 @@
             // 
             // cmbCategoria
             // 
-            this.cmbCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.cmbCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.cmbCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(340, 226);
-            this.cmbCategoria.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbCategoria.Location = new System.Drawing.Point(620, 235);
+            this.cmbCategoria.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(175, 21);
+            this.cmbCategoria.Size = new System.Drawing.Size(383, 28);
             this.cmbCategoria.TabIndex = 4;
             this.cmbCategoria.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cmbCategoria_KeyDown);
             this.cmbCategoria.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cmbCategoria_KeyPress);
             // 
             // cmbEstado
             // 
-            this.cmbEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.cmbEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.cmbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbEstado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbEstado.FormattingEnabled = true;
             this.cmbEstado.Items.AddRange(new object[] {
             "Disponible",
             "NoDisponible"});
-            this.cmbEstado.Location = new System.Drawing.Point(479, 327);
-            this.cmbEstado.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbEstado.Location = new System.Drawing.Point(105, 234);
+            this.cmbEstado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(175, 21);
+            this.cmbEstado.Size = new System.Drawing.Size(383, 28);
             this.cmbEstado.TabIndex = 7;
             this.cmbEstado.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cmbEstado_KeyDown);
             // 
             // cmbIva
             // 
-            this.cmbIva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.cmbIva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.cmbIva.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbIva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmbIva.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbIva.FormattingEnabled = true;
             this.cmbIva.Items.AddRange(new object[] {
             "A",
             "B",
             "C"});
-            this.cmbIva.Location = new System.Drawing.Point(191, 326);
-            this.cmbIva.Margin = new System.Windows.Forms.Padding(2);
+            this.cmbIva.Location = new System.Drawing.Point(104, 346);
+            this.cmbIva.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbIva.Name = "cmbIva";
-            this.cmbIva.Size = new System.Drawing.Size(175, 21);
+            this.cmbIva.Size = new System.Drawing.Size(383, 28);
             this.cmbIva.TabIndex = 6;
             this.cmbIva.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cmbIva_KeyDown);
             // 
+            // txtNombreProveedor
+            // 
+            this.txtNombreProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
+            this.txtNombreProveedor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreProveedor.Enabled = false;
+            this.txtNombreProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreProveedor.Location = new System.Drawing.Point(625, 131);
+            this.txtNombreProveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNombreProveedor.Name = "txtNombreProveedor";
+            this.txtNombreProveedor.Size = new System.Drawing.Size(328, 20);
+            this.txtNombreProveedor.TabIndex = 10;
+            this.txtNombreProveedor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // fmAgregarMedicina
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
+            this.Controls.Add(this.txtNombreProveedor);
             this.Controls.Add(this.cmbIva);
             this.Controls.Add(this.cmbEstado);
             this.Controls.Add(this.cmbCategoria);
@@ -209,6 +234,7 @@
             this.Controls.Add(this.txtIDProveedor);
             this.Controls.Add(this.txtNombreMedicina);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmAgregarMedicina";
             this.Text = "fmAgregarMedicina";
             this.Load += new System.EventHandler(this.fmAgregarMedicina_Load);
@@ -229,5 +255,6 @@
         private System.Windows.Forms.ComboBox cmbEstado;
         public System.Windows.Forms.TextBox txtIDProveedor;
         private System.Windows.Forms.ComboBox cmbIva;
+        public System.Windows.Forms.TextBox txtNombreProveedor;
     }
 }

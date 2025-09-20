@@ -41,10 +41,10 @@
             // 
             // dgvMovimientos
             // 
-            this.dgvMovimientos.BackgroundColor = System.Drawing.Color.White;
+            this.dgvMovimientos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(81)))), ((int)(((byte)(159)))));
             this.dgvMovimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMovimientos.Location = new System.Drawing.Point(35, 149);
-            this.dgvMovimientos.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvMovimientos.Location = new System.Drawing.Point(48, 182);
+            this.dgvMovimientos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvMovimientos.MultiSelect = false;
             this.dgvMovimientos.Name = "dgvMovimientos";
             this.dgvMovimientos.ReadOnly = true;
@@ -52,18 +52,19 @@
             this.dgvMovimientos.RowHeadersWidth = 51;
             this.dgvMovimientos.RowTemplate.Height = 24;
             this.dgvMovimientos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMovimientos.Size = new System.Drawing.Size(772, 350);
+            this.dgvMovimientos.Size = new System.Drawing.Size(1029, 431);
             this.dgvMovimientos.TabIndex = 15;
             // 
             // txtBuscar
             // 
-            this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBuscar.Location = new System.Drawing.Point(215, 79);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(288, 93);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBuscar.MaxLength = 30;
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(386, 13);
+            this.txtBuscar.Size = new System.Drawing.Size(515, 20);
             this.txtBuscar.TabIndex = 17;
             this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
             // 
@@ -78,9 +79,10 @@
             this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnBuscar.Location = new System.Drawing.Point(616, 75);
+            this.btnBuscar.Location = new System.Drawing.Point(821, 92);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(22, 21);
+            this.btnBuscar.Size = new System.Drawing.Size(29, 26);
             this.btnBuscar.TabIndex = 16;
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -89,10 +91,10 @@
             // 
             this.imgTransaccionesCja.BackColor = System.Drawing.Color.Transparent;
             this.imgTransaccionesCja.Image = ((System.Drawing.Image)(resources.GetObject("imgTransaccionesCja.Image")));
-            this.imgTransaccionesCja.Location = new System.Drawing.Point(308, 2);
-            this.imgTransaccionesCja.Margin = new System.Windows.Forms.Padding(2);
+            this.imgTransaccionesCja.Location = new System.Drawing.Point(411, 2);
+            this.imgTransaccionesCja.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.imgTransaccionesCja.Name = "imgTransaccionesCja";
-            this.imgTransaccionesCja.Size = new System.Drawing.Size(225, 41);
+            this.imgTransaccionesCja.Size = new System.Drawing.Size(300, 50);
             this.imgTransaccionesCja.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgTransaccionesCja.TabIndex = 19;
             this.imgTransaccionesCja.TabStop = false;
@@ -102,10 +104,10 @@
             // 
             this.imgMovimientosCaja.BackColor = System.Drawing.Color.Transparent;
             this.imgMovimientosCaja.Image = ((System.Drawing.Image)(resources.GetObject("imgMovimientosCaja.Image")));
-            this.imgMovimientosCaja.Location = new System.Drawing.Point(308, 2);
-            this.imgMovimientosCaja.Margin = new System.Windows.Forms.Padding(2);
+            this.imgMovimientosCaja.Location = new System.Drawing.Point(411, 2);
+            this.imgMovimientosCaja.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.imgMovimientosCaja.Name = "imgMovimientosCaja";
-            this.imgMovimientosCaja.Size = new System.Drawing.Size(225, 35);
+            this.imgMovimientosCaja.Size = new System.Drawing.Size(300, 43);
             this.imgMovimientosCaja.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgMovimientosCaja.TabIndex = 20;
             this.imgMovimientosCaja.TabStop = false;
@@ -113,17 +115,18 @@
             // 
             // fmMovimientos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
             this.Controls.Add(this.imgMovimientosCaja);
             this.Controls.Add(this.imgTransaccionesCja);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dgvMovimientos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fmMovimientos";
             this.Text = "fmMovimientos";
             this.Load += new System.EventHandler(this.fmMovimientos_Load);

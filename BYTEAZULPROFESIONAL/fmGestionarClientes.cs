@@ -100,6 +100,8 @@ namespace BYTEAZULPROFESIONAL
                 {
                     fmCaja caja = Owner as fmCaja;
                     caja.txtIdCliente.Text = dgvVerClientes.Rows[fila].Cells["ID Cliente"].Value.ToString();
+                    caja.txtNombreCliente.Text = dgvVerClientes.Rows[fila].Cells["Apellidos"].Value.ToString();
+                    caja.txtNombreCliente.Enabled = false;
                     caja.txtIdCliente.Enabled = false;
                     this.Hide();
                 }

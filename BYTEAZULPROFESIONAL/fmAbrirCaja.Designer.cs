@@ -36,13 +36,14 @@
             // 
             // txtSueldoInicial
             // 
-            this.txtSueldoInicial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtSueldoInicial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtSueldoInicial.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSueldoInicial.Location = new System.Drawing.Point(262, 180);
-            this.txtSueldoInicial.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSueldoInicial.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSueldoInicial.Location = new System.Drawing.Point(349, 222);
+            this.txtSueldoInicial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSueldoInicial.MaxLength = 30;
             this.txtSueldoInicial.Name = "txtSueldoInicial";
-            this.txtSueldoInicial.Size = new System.Drawing.Size(150, 13);
+            this.txtSueldoInicial.Size = new System.Drawing.Size(214, 20);
             this.txtSueldoInicial.TabIndex = 11;
             this.txtSueldoInicial.TextChanged += new System.EventHandler(this.txtSueldoInicial_TextChanged);
             this.txtSueldoInicial.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSueldoInicial_KeyDown);
@@ -59,9 +60,10 @@
             this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnCancelar.Location = new System.Drawing.Point(324, 266);
+            this.btnCancelar.Location = new System.Drawing.Point(432, 327);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(107, 20);
+            this.btnCancelar.Size = new System.Drawing.Size(143, 25);
             this.btnCancelar.TabIndex = 95;
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
@@ -77,26 +79,27 @@
             this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnConfirmar.Location = new System.Drawing.Point(180, 266);
+            this.btnConfirmar.Location = new System.Drawing.Point(240, 327);
+            this.btnConfirmar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(107, 20);
+            this.btnConfirmar.Size = new System.Drawing.Size(143, 25);
             this.btnConfirmar.TabIndex = 94;
             this.btnConfirmar.UseVisualStyleBackColor = false;
             this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // fmAbrirCaja
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtSueldoInicial);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnConfirmar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "fmAbrirCaja";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Abrir Caja";

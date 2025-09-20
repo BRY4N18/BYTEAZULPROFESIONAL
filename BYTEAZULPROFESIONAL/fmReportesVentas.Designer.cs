@@ -47,9 +47,10 @@
             this.btnGenerarReportes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnGenerarReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerarReportes.ForeColor = System.Drawing.Color.Transparent;
-            this.btnGenerarReportes.Location = new System.Drawing.Point(347, 486);
+            this.btnGenerarReportes.Location = new System.Drawing.Point(463, 598);
+            this.btnGenerarReportes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGenerarReportes.Name = "btnGenerarReportes";
-            this.btnGenerarReportes.Size = new System.Drawing.Size(150, 39);
+            this.btnGenerarReportes.Size = new System.Drawing.Size(200, 48);
             this.btnGenerarReportes.TabIndex = 75;
             this.btnGenerarReportes.UseVisualStyleBackColor = false;
             this.btnGenerarReportes.Click += new System.EventHandler(this.btnGenerarReportes_Click);
@@ -58,24 +59,25 @@
             // 
             this.dtpFechaInicio.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
             this.dtpFechaInicio.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
-            this.dtpFechaInicio.Location = new System.Drawing.Point(31, 101);
+            this.dtpFechaInicio.Location = new System.Drawing.Point(41, 124);
             this.dtpFechaInicio.Margin = new System.Windows.Forms.Padding(0);
             this.dtpFechaInicio.Name = "dtpFechaInicio";
-            this.dtpFechaInicio.Size = new System.Drawing.Size(284, 20);
+            this.dtpFechaInicio.Size = new System.Drawing.Size(377, 22);
             this.dtpFechaInicio.TabIndex = 76;
             this.dtpFechaInicio.Visible = false;
             // 
             // dtpFechafin
             // 
-            this.dtpFechafin.Location = new System.Drawing.Point(31, 133);
+            this.dtpFechafin.Location = new System.Drawing.Point(41, 164);
+            this.dtpFechafin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpFechafin.Name = "dtpFechafin";
-            this.dtpFechafin.Size = new System.Drawing.Size(284, 20);
+            this.dtpFechafin.Size = new System.Drawing.Size(377, 22);
             this.dtpFechafin.TabIndex = 77;
             this.dtpFechafin.Visible = false;
             // 
             // cbTipodeReportes
             // 
-            this.cbTipodeReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.cbTipodeReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.cbTipodeReportes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTipodeReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbTipodeReportes.ForeColor = System.Drawing.Color.Black;
@@ -90,34 +92,37 @@
             "Reporte de Listado de Clientes",
             "Reportes de Ventas de Empleados",
             "Reportes Graficos de Ventas Mensuales"});
-            this.cbTipodeReportes.Location = new System.Drawing.Point(270, 59);
+            this.cbTipodeReportes.Location = new System.Drawing.Point(360, 73);
+            this.cbTipodeReportes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbTipodeReportes.Name = "cbTipodeReportes";
-            this.cbTipodeReportes.Size = new System.Drawing.Size(308, 21);
+            this.cbTipodeReportes.Size = new System.Drawing.Size(409, 24);
             this.cbTipodeReportes.TabIndex = 78;
             this.cbTipodeReportes.SelectedIndexChanged += new System.EventHandler(this.cbTipodeReportes_SelectedIndexChanged);
             // 
             // rptReporte
             // 
-            this.rptReporte.Location = new System.Drawing.Point(17, 159);
+            this.rptReporte.Location = new System.Drawing.Point(27, 196);
+            this.rptReporte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rptReporte.Name = "rptReporte";
             this.rptReporte.ServerReport.BearerToken = null;
-            this.rptReporte.Size = new System.Drawing.Size(798, 319);
+            this.rptReporte.Size = new System.Drawing.Size(1053, 392);
             this.rptReporte.TabIndex = 79;
             this.rptReporte.Visible = false;
             // 
             // fmReportesVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
             this.Controls.Add(this.rptReporte);
             this.Controls.Add(this.cbTipodeReportes);
             this.Controls.Add(this.dtpFechafin);
             this.Controls.Add(this.dtpFechaInicio);
             this.Controls.Add(this.btnGenerarReportes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fmReportesVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fmReportesVentas";

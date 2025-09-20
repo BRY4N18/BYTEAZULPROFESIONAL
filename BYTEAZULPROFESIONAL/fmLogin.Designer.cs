@@ -49,33 +49,36 @@
             this.btnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnIngresar.Location = new System.Drawing.Point(659, 410);
+            this.btnIngresar.Location = new System.Drawing.Point(879, 505);
+            this.btnIngresar.Margin = new System.Windows.Forms.Padding(4);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(282, 58);
+            this.btnIngresar.Size = new System.Drawing.Size(376, 71);
             this.btnIngresar.TabIndex = 74;
             this.btnIngresar.UseVisualStyleBackColor = false;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // txtUsuario
             // 
-            this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(665, 255);
+            this.txtUsuario.Location = new System.Drawing.Point(887, 314);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.MaxLength = 13;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(271, 21);
+            this.txtUsuario.Size = new System.Drawing.Size(361, 26);
             this.txtUsuario.TabIndex = 1;
             this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUsuario_KeyPress);
             // 
             // txtPassword
             // 
-            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(662, 337);
+            this.txtPassword.Location = new System.Drawing.Point(883, 415);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(254, 21);
+            this.txtPassword.Size = new System.Drawing.Size(314, 26);
             this.txtPassword.TabIndex = 2;
             this.txtPassword.UseSystemPasswordChar = true;
             this.txtPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPassword_KeyPress);
@@ -91,9 +94,10 @@
             this.btnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimizar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnMinimizar.Location = new System.Drawing.Point(916, 2);
+            this.btnMinimizar.Location = new System.Drawing.Point(1221, 2);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(23, 19);
+            this.btnMinimizar.Size = new System.Drawing.Size(31, 23);
             this.btnMinimizar.TabIndex = 77;
             this.btnMinimizar.UseVisualStyleBackColor = false;
             this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
@@ -109,9 +113,10 @@
             this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCerrar.Location = new System.Drawing.Point(948, 2);
+            this.btnCerrar.Location = new System.Drawing.Point(1264, 2);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(23, 19);
+            this.btnCerrar.Size = new System.Drawing.Size(31, 23);
             this.btnCerrar.TabIndex = 78;
             this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -128,9 +133,10 @@
             this.btnVer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVer.ForeColor = System.Drawing.Color.Transparent;
-            this.btnVer.Location = new System.Drawing.Point(904, 334);
+            this.btnVer.Location = new System.Drawing.Point(1205, 411);
+            this.btnVer.Margin = new System.Windows.Forms.Padding(4);
             this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(32, 30);
+            this.btnVer.Size = new System.Drawing.Size(43, 37);
             this.btnVer.TabIndex = 79;
             this.btnVer.UseVisualStyleBackColor = false;
             this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
@@ -147,9 +153,10 @@
             this.btnOcultar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnOcultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOcultar.ForeColor = System.Drawing.Color.Transparent;
-            this.btnOcultar.Location = new System.Drawing.Point(904, 334);
+            this.btnOcultar.Location = new System.Drawing.Point(1205, 411);
+            this.btnOcultar.Margin = new System.Windows.Forms.Padding(4);
             this.btnOcultar.Name = "btnOcultar";
-            this.btnOcultar.Size = new System.Drawing.Size(32, 30);
+            this.btnOcultar.Size = new System.Drawing.Size(43, 37);
             this.btnOcultar.TabIndex = 80;
             this.btnOcultar.UseVisualStyleBackColor = false;
             this.btnOcultar.Visible = false;
@@ -157,11 +164,11 @@
             // 
             // fmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(980, 550);
+            this.ClientSize = new System.Drawing.Size(1307, 677);
             this.Controls.Add(this.btnOcultar);
             this.Controls.Add(this.btnVer);
             this.Controls.Add(this.btnCerrar);
@@ -171,6 +178,7 @@
             this.Controls.Add(this.btnIngresar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FmLogin";

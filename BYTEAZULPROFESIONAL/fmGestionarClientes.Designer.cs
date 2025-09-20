@@ -46,19 +46,20 @@
             this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnBuscar.Location = new System.Drawing.Point(618, 75);
+            this.btnBuscar.Location = new System.Drawing.Point(822, 91);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(22, 21);
+            this.btnBuscar.Size = new System.Drawing.Size(29, 26);
             this.btnBuscar.TabIndex = 13;
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // dgvVerClientes
             // 
-            this.dgvVerClientes.BackgroundColor = System.Drawing.Color.White;
+            this.dgvVerClientes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(81)))), ((int)(((byte)(159)))));
             this.dgvVerClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVerClientes.Location = new System.Drawing.Point(74, 138);
-            this.dgvVerClientes.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvVerClientes.Location = new System.Drawing.Point(99, 170);
+            this.dgvVerClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvVerClientes.MultiSelect = false;
             this.dgvVerClientes.Name = "dgvVerClientes";
             this.dgvVerClientes.ReadOnly = true;
@@ -66,34 +67,36 @@
             this.dgvVerClientes.RowHeadersWidth = 51;
             this.dgvVerClientes.RowTemplate.Height = 24;
             this.dgvVerClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvVerClientes.Size = new System.Drawing.Size(697, 321);
+            this.dgvVerClientes.Size = new System.Drawing.Size(929, 395);
             this.dgvVerClientes.TabIndex = 14;
             this.dgvVerClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVerClientes_CellClick);
             this.dgvVerClientes.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVerClientes_CellContentDoubleClick);
             // 
             // txtBuscar
             // 
-            this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBuscar.Location = new System.Drawing.Point(217, 79);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscar.Location = new System.Drawing.Point(286, 94);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBuscar.MaxLength = 30;
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(386, 13);
+            this.txtBuscar.Size = new System.Drawing.Size(515, 20);
             this.txtBuscar.TabIndex = 15;
             this.txtBuscar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuscar_KeyDown);
             // 
             // fmGestionarClientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.dgvVerClientes);
             this.Controls.Add(this.btnBuscar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fmGestionarClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fmGestionarClientes";

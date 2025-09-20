@@ -42,10 +42,12 @@
             // dtpFechaDeSuscripcion
             // 
             this.dtpFechaDeSuscripcion.Enabled = false;
-            this.dtpFechaDeSuscripcion.Location = new System.Drawing.Point(482, 262);
+            this.dtpFechaDeSuscripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFechaDeSuscripcion.Location = new System.Drawing.Point(636, 322);
+            this.dtpFechaDeSuscripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpFechaDeSuscripcion.MinDate = new System.DateTime(2024, 9, 20, 0, 0, 0, 0);
             this.dtpFechaDeSuscripcion.Name = "dtpFechaDeSuscripcion";
-            this.dtpFechaDeSuscripcion.Size = new System.Drawing.Size(234, 20);
+            this.dtpFechaDeSuscripcion.Size = new System.Drawing.Size(339, 27);
             this.dtpFechaDeSuscripcion.TabIndex = 128;
             this.dtpFechaDeSuscripcion.Value = new System.DateTime(2024, 10, 2, 0, 0, 0, 0);
             // 
@@ -60,9 +62,10 @@
             this.btnBuscarCliente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(92)))), ((int)(((byte)(185)))));
             this.btnBuscarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarCliente.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBuscarCliente.Location = new System.Drawing.Point(698, 94);
+            this.btnBuscarCliente.Location = new System.Drawing.Point(935, 119);
+            this.btnBuscarCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscarCliente.Name = "btnBuscarCliente";
-            this.btnBuscarCliente.Size = new System.Drawing.Size(33, 27);
+            this.btnBuscarCliente.Size = new System.Drawing.Size(30, 28);
             this.btnBuscarCliente.TabIndex = 127;
             this.btnBuscarCliente.TabStop = false;
             this.btnBuscarCliente.UseVisualStyleBackColor = false;
@@ -79,9 +82,10 @@
             this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnCancelar.Location = new System.Drawing.Point(631, 502);
+            this.btnCancelar.Location = new System.Drawing.Point(841, 616);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(145, 30);
+            this.btnCancelar.Size = new System.Drawing.Size(193, 37);
             this.btnCancelar.TabIndex = 126;
             this.btnCancelar.TabStop = false;
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -98,9 +102,10 @@
             this.btnConfirmarSus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnConfirmarSus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmarSus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnConfirmarSus.Location = new System.Drawing.Point(433, 502);
+            this.btnConfirmarSus.Location = new System.Drawing.Point(577, 616);
+            this.btnConfirmarSus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnConfirmarSus.Name = "btnConfirmarSus";
-            this.btnConfirmarSus.Size = new System.Drawing.Size(145, 30);
+            this.btnConfirmarSus.Size = new System.Drawing.Size(193, 37);
             this.btnConfirmarSus.TabIndex = 125;
             this.btnConfirmarSus.TabStop = false;
             this.btnConfirmarSus.UseVisualStyleBackColor = false;
@@ -108,14 +113,14 @@
             // 
             // txtMontoPagar
             // 
-            this.txtMontoPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtMontoPagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtMontoPagar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtMontoPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMontoPagar.Location = new System.Drawing.Point(480, 417);
-            this.txtMontoPagar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMontoPagar.Location = new System.Drawing.Point(645, 516);
+            this.txtMontoPagar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMontoPagar.MaxLength = 5;
             this.txtMontoPagar.Name = "txtMontoPagar";
-            this.txtMontoPagar.Size = new System.Drawing.Size(236, 15);
+            this.txtMontoPagar.Size = new System.Drawing.Size(315, 19);
             this.txtMontoPagar.TabIndex = 124;
             this.txtMontoPagar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtMontoPagar.TextChanged += new System.EventHandler(this.txtMontoPagar_TextChanged);
@@ -123,15 +128,15 @@
             // 
             // txtMontoSus
             // 
-            this.txtMontoSus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtMontoSus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtMontoSus.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtMontoSus.Enabled = false;
             this.txtMontoSus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMontoSus.Location = new System.Drawing.Point(484, 336);
-            this.txtMontoSus.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMontoSus.Location = new System.Drawing.Point(646, 416);
+            this.txtMontoSus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMontoSus.MaxLength = 30;
             this.txtMontoSus.Name = "txtMontoSus";
-            this.txtMontoSus.Size = new System.Drawing.Size(236, 15);
+            this.txtMontoSus.Size = new System.Drawing.Size(315, 19);
             this.txtMontoSus.TabIndex = 123;
             this.txtMontoSus.Text = "50";
             this.txtMontoSus.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -142,40 +147,40 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txtIDEmpleado.AutoCompleteCustomSource.AddRange(new string[] {
             ""});
-            this.txtIDEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIDEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIDEmpleado.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIDEmpleado.Enabled = false;
             this.txtIDEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDEmpleado.Location = new System.Drawing.Point(482, 175);
-            this.txtIDEmpleado.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIDEmpleado.Location = new System.Drawing.Point(643, 215);
+            this.txtIDEmpleado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIDEmpleado.MaxLength = 30;
             this.txtIDEmpleado.Multiline = true;
             this.txtIDEmpleado.Name = "txtIDEmpleado";
-            this.txtIDEmpleado.Size = new System.Drawing.Size(247, 28);
+            this.txtIDEmpleado.Size = new System.Drawing.Size(329, 34);
             this.txtIDEmpleado.TabIndex = 122;
             this.txtIDEmpleado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtIDCliente
             // 
-            this.txtIDCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
+            this.txtIDCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
             this.txtIDCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtIDCliente.Enabled = false;
             this.txtIDCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIDCliente.Location = new System.Drawing.Point(484, 106);
-            this.txtIDCliente.Margin = new System.Windows.Forms.Padding(2);
+            this.txtIDCliente.Location = new System.Drawing.Point(644, 125);
+            this.txtIDCliente.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtIDCliente.MaxLength = 30;
             this.txtIDCliente.Name = "txtIDCliente";
-            this.txtIDCliente.Size = new System.Drawing.Size(209, 15);
+            this.txtIDCliente.Size = new System.Drawing.Size(279, 19);
             this.txtIDCliente.TabIndex = 121;
             this.txtIDCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // fmSuscripciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
             this.Controls.Add(this.dtpFechaDeSuscripcion);
             this.Controls.Add(this.btnBuscarCliente);
             this.Controls.Add(this.btnCancelar);
@@ -186,6 +191,7 @@
             this.Controls.Add(this.txtIDCliente);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fmSuscripciones";
             this.Text = "fmSuscripciones";
             this.Load += new System.EventHandler(this.fmSuscripciones_Load);
