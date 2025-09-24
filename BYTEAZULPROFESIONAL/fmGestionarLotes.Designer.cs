@@ -37,10 +37,10 @@
             // 
             // dgvVerLotes
             // 
-            this.dgvVerLotes.BackgroundColor = System.Drawing.Color.White;
+            this.dgvVerLotes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(81)))), ((int)(((byte)(159)))));
             this.dgvVerLotes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvVerLotes.Location = new System.Drawing.Point(34, 147);
-            this.dgvVerLotes.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvVerLotes.Location = new System.Drawing.Point(45, 181);
+            this.dgvVerLotes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvVerLotes.MultiSelect = false;
             this.dgvVerLotes.Name = "dgvVerLotes";
             this.dgvVerLotes.ReadOnly = true;
@@ -48,7 +48,7 @@
             this.dgvVerLotes.RowHeadersWidth = 51;
             this.dgvVerLotes.RowTemplate.Height = 24;
             this.dgvVerLotes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvVerLotes.Size = new System.Drawing.Size(778, 358);
+            this.dgvVerLotes.Size = new System.Drawing.Size(1037, 441);
             this.dgvVerLotes.TabIndex = 0;
             this.dgvVerLotes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVerLotes_CellClick);
             this.dgvVerLotes.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgvVerLotes_KeyDown);
@@ -64,9 +64,10 @@
             this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnBuscar.Location = new System.Drawing.Point(615, 72);
+            this.btnBuscar.Location = new System.Drawing.Point(820, 89);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(23, 25);
+            this.btnBuscar.Size = new System.Drawing.Size(31, 31);
             this.btnBuscar.TabIndex = 87;
             this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
@@ -75,25 +76,26 @@
             // 
             this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
             this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBuscar.Location = new System.Drawing.Point(213, 78);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBuscar.Location = new System.Drawing.Point(284, 96);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBuscar.MaxLength = 30;
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(386, 13);
+            this.txtBuscar.Size = new System.Drawing.Size(515, 15);
             this.txtBuscar.TabIndex = 89;
             this.txtBuscar.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuscar_KeyDown);
             // 
             // fmGestionarLotes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dgvVerLotes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fmGestionarLotes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fmGestionarLotes";

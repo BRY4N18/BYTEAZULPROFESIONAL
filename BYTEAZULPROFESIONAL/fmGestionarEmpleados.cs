@@ -36,6 +36,7 @@ namespace BYTEAZULPROFESIONAL
 
             dgvVerEmpleados.AllowUserToAddRows = false;
             dgvVerEmpleados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvVerEmpleados.Columns["ID Empleado"].Visible = false;
         }
 
         private void dgvVerEmpleados_CellClick(object sender, DataGridViewCellEventArgs e)

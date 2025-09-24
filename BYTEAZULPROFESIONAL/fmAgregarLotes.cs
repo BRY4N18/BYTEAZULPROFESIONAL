@@ -45,7 +45,7 @@ namespace BYTEAZULPROFESIONAL
             fmGestionarProveedores prove = new fmGestionarProveedores(2);
             this.AddOwnedForm(prove);
             prove.ShowDialog();
-            
+            txtNombreProveedor.Text = NombreProvedor;
         }
 
         private void btnConfirmarCompra_Click(object sender, EventArgs e)
@@ -95,7 +95,11 @@ namespace BYTEAZULPROFESIONAL
         {
             CsMovimientos movimientos = new CsMovimientos();
             CsAuxiliar auxiliar = new CsAuxiliar();
+            csEmpleados empleados = new csEmpleados();
             txtEmpleado.Text = movimientos.ID();
+            txtNombreEmpleado.Text = empleados.SacarNombreEmpleado(int.Parse(movimientos.ID()));
+            txtNombreEmpleado.Enabled = false;
+            txtNombreProveedor.Enabled = false;
             dgvCompra.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dtpFechaCaducidad.Value = DateTime.Now.AddMonths(6);
 

@@ -39,11 +39,11 @@
             // 
             this.txtBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(214)))), ((int)(((byte)(216)))));
             this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBuscar.Location = new System.Drawing.Point(221, 77);
-            this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtBuscar.Location = new System.Drawing.Point(295, 95);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBuscar.MaxLength = 30;
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(375, 13);
+            this.txtBuscar.Size = new System.Drawing.Size(500, 15);
             this.txtBuscar.TabIndex = 93;
             // 
             // btnBuscar
@@ -57,35 +57,39 @@
             this.btnBuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
-            this.btnBuscar.Location = new System.Drawing.Point(614, 71);
+            this.btnBuscar.Location = new System.Drawing.Point(819, 87);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(23, 25);
+            this.btnBuscar.Size = new System.Drawing.Size(31, 31);
             this.btnBuscar.TabIndex = 92;
             this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // dgvGestionarSuscripciones
             // 
-            this.dgvGestionarSuscripciones.BackgroundColor = System.Drawing.Color.White;
+            this.dgvGestionarSuscripciones.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(81)))), ((int)(((byte)(159)))));
             this.dgvGestionarSuscripciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvGestionarSuscripciones.Location = new System.Drawing.Point(31, 147);
+            this.dgvGestionarSuscripciones.Location = new System.Drawing.Point(41, 181);
+            this.dgvGestionarSuscripciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvGestionarSuscripciones.Name = "dgvGestionarSuscripciones";
             this.dgvGestionarSuscripciones.RowHeadersVisible = false;
-            this.dgvGestionarSuscripciones.Size = new System.Drawing.Size(778, 351);
+            this.dgvGestionarSuscripciones.RowHeadersWidth = 51;
+            this.dgvGestionarSuscripciones.Size = new System.Drawing.Size(1037, 432);
             this.dgvGestionarSuscripciones.TabIndex = 91;
             this.dgvGestionarSuscripciones.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGestionarSuscripciones_CellClick);
             // 
             // fmGestionarSuscripciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(831, 544);
+            this.ClientSize = new System.Drawing.Size(1108, 670);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.dgvGestionarSuscripciones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "fmGestionarSuscripciones";
             this.Text = "Gestionar Suscripciones";
             this.Load += new System.EventHandler(this.fmGestionarSuscripciones_Load);

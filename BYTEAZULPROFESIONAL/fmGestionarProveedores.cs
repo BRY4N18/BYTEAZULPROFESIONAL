@@ -113,6 +113,7 @@ namespace BYTEAZULPROFESIONAL
             fmAgregarLotes comprasimg = new fmAgregarLotes();
             this.AddOwnedForm(comprasimg);
             auxiliar.AgregarBoton(dgvVerProveedores, comprasimg.imlLogo.Images[2], "Editar");
+            dgvVerProveedores.Columns["Id"].Visible=false;
         }
 
         private void dgvVerProveedores_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -122,13 +123,13 @@ namespace BYTEAZULPROFESIONAL
             if (e.ColumnIndex == dgvVerProveedores.Columns["Editar"].Index && e.RowIndex >= 0)
             {
                 int fila = dgvVerProveedores.CurrentCell.RowIndex;
-                prv_IdProveedor = dgvVerProveedores.Rows[fila].Cells[1].Value.ToString();
-                prv_nombre = dgvVerProveedores.Rows[fila].Cells[2].Value.ToString();
-                prv_celular = dgvVerProveedores.Rows[fila].Cells[3].Value.ToString();
-                prv_servicios = dgvVerProveedores.Rows[fila].Cells[4].Value.ToString();
-                prv_direccion = dgvVerProveedores.Rows[fila].Cells[5].Value.ToString();
-                prv_email = dgvVerProveedores.Rows[fila].Cells[6].Value.ToString();
-                prv_estado = dgvVerProveedores.Rows[fila].Cells[7].Value.ToString();
+                prv_IdProveedor = dgvVerProveedores.Rows[fila].Cells["Id"].Value.ToString();
+                prv_nombre = dgvVerProveedores.Rows[fila].Cells["Nombre"].Value.ToString();
+                prv_celular = dgvVerProveedores.Rows[fila].Cells["Celular"].Value.ToString();
+                prv_servicios = dgvVerProveedores.Rows[fila].Cells["Servicios"].Value.ToString();
+                prv_direccion = dgvVerProveedores.Rows[fila].Cells["Direccion"].Value.ToString();
+                prv_email = dgvVerProveedores.Rows[fila].Cells["Email"].Value.ToString();
+                prv_estado = dgvVerProveedores.Rows[fila].Cells["Estado"].Value.ToString();
                 int select;
                 if(prv_estado == "Activo")
                     select = 0;

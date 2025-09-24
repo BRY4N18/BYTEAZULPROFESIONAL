@@ -15,6 +15,7 @@ namespace BYTEAZULPROFESIONAL
     public partial class fmCaja : Form
     {
         CsCaja caja;
+        csEmpleados empleado;
         CsMovimientos movimientos = new CsMovimientos();
         CsSuscripciones suscriptor;
         public fmCaja()
@@ -95,8 +96,10 @@ namespace BYTEAZULPROFESIONAL
         }
         private void fmCaja_Load(object sender, EventArgs e)
         {
+            empleado = new csEmpleados();
             txtFecha.Text = DateTime.Now.ToString().Split(' ')[0];
             txtidEmpleado.Text = movimientos.ID();
+            txtNombreEmpleado.Text = empleado.SacarNombreEmpleado(int.Parse(movimientos.ID()));
             txtFecha.Enabled = false;
             txtidEmpleado.Enabled = false;
             txtIdProducto.Enabled = false;
@@ -105,7 +108,8 @@ namespace BYTEAZULPROFESIONAL
             txtSubtotal.Enabled = false;
             txtIva.Enabled = false;
             txtTotal.Enabled = false;
-            txtCambio.Enabled = false;          
+            txtCambio.Enabled = false;
+            txtNombreEmpleado.Enabled = false;
         }
         private void txtCantidad_KeyPress(object sender, KeyPressEventArgs e)
         {

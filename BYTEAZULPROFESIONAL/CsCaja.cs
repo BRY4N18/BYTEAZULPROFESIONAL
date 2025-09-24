@@ -227,14 +227,14 @@ namespace BYTEAZULPROFESIONAL
         public DataTable BuscarVentas(string buscar)
         {
             conexion = new CsConexion();
-            string consulta = "Select id_venta AS ID, vt_fecha_venta as [Fecha de venta],vt_factura as Factura, id_cliente as [ID Cliente], id_empleado as [ID Empleado], vt_total as TOTAL " +
-                "from Ventas where id_venta LIKE '%" + buscar + "%' or vt_factura LIKE '%"+buscar+"%' or vt_fecha_venta LIKE '%"+buscar+"%' or id_cliente LIKE '%"+buscar+ "%' or id_empleado LIKE '%"+buscar+"%' or vt_total LIKE '%"+buscar+"%'";
+            string consulta = "Select V.id_venta AS ID, V.vt_factura as Factura,V.vt_fecha_venta as [Fecha de venta], V.id_cliente as [ID Cliente], C.cl_apellido+' '+C.cl_nombre as [Nombre del cliente], V.id_empleado as [ID Empleado], E.em_apellidos+' '+E.em_nombres [Nombres del empleado], V.vt_total as TOTAL from Ventas V inner join Clientes C on V.id_cliente=C.id_cliente inner join Empleados E on V.id_empleado = E.id_empleado " +
+                "where V.vt_factura LIKE '%"+buscar+"%' or V.vt_fecha_venta LIKE '%"+buscar+"%' or C.cl_apellido + ' ' + C.cl_nombre LIKE '%"+buscar+ "%' or E.em_apellidos + ' ' + E.em_nombres LIKE '%"+buscar+"%' or vt_total LIKE '%"+buscar+"%'";
             return conexion.Leer(consulta);
         }
         public DataTable Buscar()
         {
             conexion = new CsConexion();
-            string consulta = "Select id_venta AS ID, vt_factura as Factura,vt_fecha_venta as [Fecha de venta], id_cliente as [ID Cliente], id_empleado as [ID Empleado], vt_total as TOTAL from Ventas";
+            string consulta = "Select V.id_venta AS ID, V.vt_factura as Factura,V.vt_fecha_venta as [Fecha de venta], V.id_cliente as [ID Cliente], C.cl_apellido+' '+C.cl_nombre as [Nombre del cliente], V.id_empleado as [ID Empleado], E.em_apellidos+' '+E.em_nombres [Nombres del empleado], V.vt_total as TOTAL from Ventas V inner join Clientes C on V.id_cliente=C.id_cliente inner join Empleados E on V.id_empleado = E.id_empleado";
             return conexion.Leer(consulta);
         }
         public DataTable BuscarDetalles(string idventa)

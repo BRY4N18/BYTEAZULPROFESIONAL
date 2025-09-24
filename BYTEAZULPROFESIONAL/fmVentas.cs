@@ -67,9 +67,12 @@ namespace BYTEAZULPROFESIONAL
             }
             else
             {
-                DataTable dt = Caja.Buscar();
-                dgvVentas.DataSource = dt;
-            }
+                    DataTable dt = Caja.Buscar();
+                    dgvVentas.DataSource = dt;
+                    dgvVentas.Columns["ID"].Visible = false;
+                    dgvVentas.Columns["ID Cliente"].Visible = false;
+                    dgvVentas.Columns["ID Empleado"].Visible = false;
+                }
             else if(txtBuscar.Text.Length>0)
             {
                 DataTable dt = Caja.BuscarDetallesVentas(idventa,txtBuscar.Text);

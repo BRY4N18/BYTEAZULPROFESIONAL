@@ -34,10 +34,11 @@ namespace BYTEAZULPROFESIONAL
         private void Mostrar()
         {
             DataTable ds = clientes.TablaClientes();
-
+            
             dgvVerClientes.DataSource = ds;
             dgvVerClientes.AllowUserToAddRows = false;
             dgvVerClientes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvVerClientes.Columns["ID Cliente"].Visible = false;
         }
         private void dgvVerClientes_CellClick(object sender, DataGridViewCellEventArgs e)
         {

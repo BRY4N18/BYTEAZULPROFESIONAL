@@ -61,6 +61,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.imlLogo = new System.Windows.Forms.ImageList(this.components);
             this.prtImprimir = new System.Drawing.Printing.PrintDocument();
+            this.txtNombreProveedor = new System.Windows.Forms.TextBox();
+            this.txtNombreEmpleado = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCompra)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,7 +78,7 @@
             this.btnBuscarIDProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarIDProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
             this.btnBuscarIDProducto.Location = new System.Drawing.Point(379, 129);
-            this.btnBuscarIDProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscarIDProducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscarIDProducto.Name = "btnBuscarIDProducto";
             this.btnBuscarIDProducto.Size = new System.Drawing.Size(23, 25);
             this.btnBuscarIDProducto.TabIndex = 87;
@@ -95,7 +97,7 @@
             this.btnBuscarIDProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarIDProveedor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
             this.btnBuscarIDProveedor.Location = new System.Drawing.Point(739, 183);
-            this.btnBuscarIDProveedor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscarIDProveedor.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscarIDProveedor.Name = "btnBuscarIDProveedor";
             this.btnBuscarIDProveedor.Size = new System.Drawing.Size(20, 22);
             this.btnBuscarIDProveedor.TabIndex = 88;
@@ -114,7 +116,7 @@
             this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
             this.btnGuardar.Location = new System.Drawing.Point(512, 260);
-            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(131, 26);
             this.btnGuardar.TabIndex = 89;
@@ -133,7 +135,7 @@
             this.btnSubtotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubtotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
             this.btnSubtotal.Location = new System.Drawing.Point(812, 180);
-            this.btnSubtotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSubtotal.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubtotal.Name = "btnSubtotal";
             this.btnSubtotal.Size = new System.Drawing.Size(185, 34);
             this.btnSubtotal.TabIndex = 90;
@@ -152,7 +154,7 @@
             this.btnConfirmarCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmarCompra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(176)))), ((int)(((byte)(211)))));
             this.btnConfirmarCompra.Location = new System.Drawing.Point(812, 494);
-            this.btnConfirmarCompra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConfirmarCompra.Margin = new System.Windows.Forms.Padding(4);
             this.btnConfirmarCompra.Name = "btnConfirmarCompra";
             this.btnConfirmarCompra.Size = new System.Drawing.Size(185, 34);
             this.btnConfirmarCompra.TabIndex = 91;
@@ -445,6 +447,32 @@
             this.imlLogo.Images.SetKeyName(2, "boton editar.png");
             this.imlLogo.Images.SetKeyName(3, "Captura de pantalla 2024-09-18 204000.png");
             // 
+            // txtNombreProveedor
+            // 
+            this.txtNombreProveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
+            this.txtNombreProveedor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreProveedor.Enabled = false;
+            this.txtNombreProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreProveedor.Location = new System.Drawing.Point(620, 182);
+            this.txtNombreProveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNombreProveedor.MaxLength = 30;
+            this.txtNombreProveedor.Name = "txtNombreProveedor";
+            this.txtNombreProveedor.Size = new System.Drawing.Size(117, 20);
+            this.txtNombreProveedor.TabIndex = 109;
+            // 
+            // txtNombreEmpleado
+            // 
+            this.txtNombreEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
+            this.txtNombreEmpleado.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreEmpleado.Enabled = false;
+            this.txtNombreEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreEmpleado.Location = new System.Drawing.Point(621, 218);
+            this.txtNombreEmpleado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNombreEmpleado.MaxLength = 30;
+            this.txtNombreEmpleado.Name = "txtNombreEmpleado";
+            this.txtNombreEmpleado.Size = new System.Drawing.Size(139, 20);
+            this.txtNombreEmpleado.TabIndex = 110;
+            // 
             // fmAgregarLotes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -452,6 +480,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1108, 670);
+            this.Controls.Add(this.txtNombreEmpleado);
+            this.Controls.Add(this.txtNombreProveedor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -474,7 +504,7 @@
             this.Controls.Add(this.btnBuscarIDProveedor);
             this.Controls.Add(this.btnBuscarIDProducto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmAgregarLotes";
             this.Text = "fmAgregarLotes";
             this.Load += new System.EventHandler(this.fmAgregarLotes_Load);
@@ -517,5 +547,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         public System.Windows.Forms.ImageList imlLogo;
+        public System.Windows.Forms.TextBox txtNombreProveedor;
+        private System.Windows.Forms.TextBox txtNombreEmpleado;
     }
 }

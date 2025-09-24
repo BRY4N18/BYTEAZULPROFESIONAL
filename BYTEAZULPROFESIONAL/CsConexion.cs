@@ -24,9 +24,9 @@ namespace BYTEAZULPROFESIONAL
         public string Pasword { get { return pasword; } set { pasword = value; } }
         public CsConexion()
         {
-            serve = @"(localdb)\.";
+            serve = ".";
             database = "Byte Azul";
-            usuario = "Byteazul";
+            usuario = "sa";
             pasword = "12345";
         }
         public bool abrirconexion()

@@ -56,6 +56,7 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Eliminar = new System.Windows.Forms.DataGridViewImageColumn();
             this.txtNombreCliente = new System.Windows.Forms.TextBox();
+            this.txtNombreEmpleado = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetallesVentas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -421,6 +422,18 @@
             this.txtNombreCliente.Size = new System.Drawing.Size(108, 26);
             this.txtNombreCliente.TabIndex = 148;
             // 
+            // txtNombreEmpleado
+            // 
+            this.txtNombreEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(213)))), ((int)(((byte)(225)))));
+            this.txtNombreEmpleado.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreEmpleado.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreEmpleado.Location = new System.Drawing.Point(623, 214);
+            this.txtNombreEmpleado.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombreEmpleado.MaxLength = 10;
+            this.txtNombreEmpleado.Name = "txtNombreEmpleado";
+            this.txtNombreEmpleado.Size = new System.Drawing.Size(136, 26);
+            this.txtNombreEmpleado.TabIndex = 149;
+            // 
             // fmCaja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -428,6 +441,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1108, 670);
+            this.Controls.Add(this.txtNombreEmpleado);
             this.Controls.Add(this.txtNombreCliente);
             this.Controls.Add(this.dgvDetallesVentas);
             this.Controls.Add(this.btnBuscarProducto);
@@ -488,5 +502,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewImageColumn Eliminar;
         public System.Windows.Forms.TextBox txtNombreCliente;
+        private System.Windows.Forms.TextBox txtNombreEmpleado;
     }
 }

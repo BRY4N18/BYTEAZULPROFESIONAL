@@ -159,6 +159,14 @@ namespace BYTEAZULPROFESIONAL
                 return identificador;
             return null;
         }
+
+        public string SacarNombreEmpleado(int idempleado)
+        {
+            string nombre = conexion.RetornaConsulta("select em_apellidos+' '+em_nombres from Empleados where id_empleado = '" + idempleado + "'");
+            if (nombre != null)
+                return nombre;
+            return null;
+        }
         public bool ConfirmarContraActual(string id, string antiguaContra)
         {
             DataTable dt = conexion.Leer("select * from Acceso where id_empleado = '" + id + "' and ac_contraseña = '" + antiguaContra + "'");
